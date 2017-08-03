@@ -1,0 +1,10 @@
+com\sample\hibernate\controller\DeleteServlet.class
+com\sample\hibernate\model\Products.class
+com\sample\hibernate\controller\UserDAO.class
+com\sample\hibernate\controller\ViewServlet.class
+com\sample\hibernate\controller\EditServlet.class
+com\sample\hibernate\controller\AddServlet.class
+com\sample\hibernate\util\HibernateUtil.class
+com\sample\hibernate\model\Employees.class
+com\sample\hibernate\controller\FetchServlet.class
+com\sample\hibernate\model\Categories.class

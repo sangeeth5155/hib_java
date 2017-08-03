@@ -1,0 +1,275 @@
+!SESSION 2017-08-02 15:11:04.817 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\WebApp-BitBuck\MAVENWEBPROJECT\Java_CI-Demo -product org.eclipse.epp.package.java.product
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.015
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) in 554.6 ms
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.236
+!MESSAGE Loading tern.js...
+
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.238
+!MESSAGE Loading library ecma5
+
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.244
+!MESSAGE Loading library browser
+
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.248
+!MESSAGE Loading library ecma6
+
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.251
+!MESSAGE Loading plugin doc_comment
+
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:11.284
+!MESSAGE Loading plugin aura
+
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:12.355
+!MESSAGE Tern.js (0.19.0) ready
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-02 15:11:18.633
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mstemp 401'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-08-02 15:11:22.579
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out. ; version: 2.0.3.v20161205-0933
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:28.951
+!MESSAGE ':core' project is not available. Please add '<module>:core</module>' to your list of partial build modules. If using para, set 'ide-search-all-files: true' and run 'para refresh'
+
+!ENTRY mega.js.tern 1 0 2017-08-02 15:11:28.978
+!MESSAGE Analyzed Lightning System JavaScript Support in 24.67 ms
+!SESSION 2017-08-02 15:11:36.718 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY mega.js.tern 4 0 2017-08-02 15:11:42.323
+!MESSAGE Contribution mega.js.tern failed to initialize. Removing. 
+!STACK 0
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:593)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:569)
+	at mega.core.v8.tern.V8ExecutionStrategy.init(V8ExecutionStrategy.java:39)
+	at mega.core.JSCore.init(JSCore.java:65)
+	at mega.core.JSCore.<init>(JSCore.java:51)
+	at mega.core.JSCore.<init>(JSCore.java:47)
+	at mega.core.JSCore$JSCoreInit.<clinit>(JSCore.java:40)
+	at mega.core.JSCore.instance(JSCore.java:44)
+	at mega.core.js.AuraServer.get(AuraServer.java:26)
+	at mega.core.index.AuraWorkspace$1.lambda$0(AuraWorkspace.java:227)
+	at mega.force.integration.ForceIDE.executeIfApplicable(ForceIDE.java:22)
+	at mega.core.index.AuraWorkspace$1.run(AuraWorkspace.java:226)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:584)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at mega.core.v8.tern.V8ExecutionStrategy.lambda$0(V8ExecutionStrategy.java:41)
+	at mega.core.v8.NodeManager.lambda$16(NodeManager.java:576)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY mega.js.tern 4 0 2017-08-02 15:11:42.330
+!MESSAGE Contribution mega.js.jsbeautify failed to initialize. Removing. 
+!STACK 0
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:593)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:569)
+	at mega.core.v8.beautify.JSBeautify.init(JSBeautify.java:28)
+	at mega.core.JSCore.init(JSCore.java:65)
+	at mega.core.JSCore.<init>(JSCore.java:51)
+	at mega.core.JSCore.<init>(JSCore.java:47)
+	at mega.core.JSCore$JSCoreInit.<clinit>(JSCore.java:40)
+	at mega.core.JSCore.instance(JSCore.java:44)
+	at mega.core.js.AuraServer.get(AuraServer.java:26)
+	at mega.core.index.AuraWorkspace$1.lambda$0(AuraWorkspace.java:227)
+	at mega.force.integration.ForceIDE.executeIfApplicable(ForceIDE.java:22)
+	at mega.core.index.AuraWorkspace$1.run(AuraWorkspace.java:226)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:584)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at mega.core.v8.beautify.JSBeautify.lambda$0(JSBeautify.java:30)
+	at mega.core.v8.NodeManager.lambda$16(NodeManager.java:576)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY mega.js.tern 4 0 2017-08-02 15:11:42.333
+!MESSAGE Contribution mega.lightning.parser failed to initialize. Removing. 
+!STACK 0
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:593)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:569)
+	at mega.core.js.JSParser.init(JSParser.java:51)
+	at mega.core.JSCore.init(JSCore.java:65)
+	at mega.core.JSCore.<init>(JSCore.java:51)
+	at mega.core.JSCore.<init>(JSCore.java:47)
+	at mega.core.JSCore$JSCoreInit.<clinit>(JSCore.java:40)
+	at mega.core.JSCore.instance(JSCore.java:44)
+	at mega.core.js.AuraServer.get(AuraServer.java:26)
+	at mega.core.index.AuraWorkspace$1.lambda$0(AuraWorkspace.java:227)
+	at mega.force.integration.ForceIDE.executeIfApplicable(ForceIDE.java:22)
+	at mega.core.index.AuraWorkspace$1.run(AuraWorkspace.java:226)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:584)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at mega.core.js.JSParser.lambda$0(JSParser.java:52)
+	at mega.core.v8.NodeManager.lambda$16(NodeManager.java:576)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY mega.js.tern 4 0 2017-08-02 15:11:42.336
+!MESSAGE Contribution mega.js.tern.aura failed to initialize. Removing. 
+!STACK 0
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:593)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:569)
+	at mega.core.js.AuraServer.init(AuraServer.java:33)
+	at mega.core.JSCore.init(JSCore.java:65)
+	at mega.core.JSCore.<init>(JSCore.java:51)
+	at mega.core.JSCore.<init>(JSCore.java:47)
+	at mega.core.JSCore$JSCoreInit.<clinit>(JSCore.java:40)
+	at mega.core.JSCore.instance(JSCore.java:44)
+	at mega.core.js.AuraServer.get(AuraServer.java:26)
+	at mega.core.index.AuraWorkspace$1.lambda$0(AuraWorkspace.java:227)
+	at mega.force.integration.ForceIDE.executeIfApplicable(ForceIDE.java:22)
+	at mega.core.index.AuraWorkspace$1.run(AuraWorkspace.java:226)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at mega.core.v8.NodeManager.invokeNodeSync(NodeManager.java:584)
+	... 12 more
+Caused by: java.lang.NullPointerException
+	at mega.core.v8.NodeManager.registerJavaMethod(NodeManager.java:607)
+	at mega.core.js.AuraServer.lambda$0(AuraServer.java:34)
+	at mega.core.v8.NodeManager.lambda$16(NodeManager.java:576)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-08-02 15:11:42.343
+!MESSAGE An internal error occurred during: "Starting Lightning Tools".
+!STACK 0
+java.lang.NullPointerException
+	at mega.core.index.AuraWorkspace$1.lambda$0(AuraWorkspace.java:227)
+	at mega.force.integration.ForceIDE.executeIfApplicable(ForceIDE.java:22)
+	at mega.core.index.AuraWorkspace$1.run(AuraWorkspace.java:226)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-02 15:11:53.375
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mstemp 401'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-08-02 15:11:56.676
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out. ; version: 2.0.3.v20161205-0933
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY com.salesforce.ide.core 2 0 2017-08-02 15:12:43.140
+!MESSAGE  WARN [2017-08-02 15:12:43,066] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-08-02 15:12:43.147
+!MESSAGE  WARN [2017-08-02 15:12:43,141] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-08-02 15:12:43.150
+!MESSAGE  WARN [2017-08-02 15:12:43,148] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+

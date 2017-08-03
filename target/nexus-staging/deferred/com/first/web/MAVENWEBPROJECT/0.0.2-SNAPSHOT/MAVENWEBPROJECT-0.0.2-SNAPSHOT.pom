@@ -1,0 +1,135 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.first.web</groupId>
+  <artifactId>MAVENWEBPROJECT</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.2-SNAPSHOT</version>
+  <name>MAVENWEBPROJECT Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+  <hibernate.version>4.0.1.Final</hibernate.version>
+  </properties>
+   <scm>
+     <connection>scm:git:https://github.com/DevOps-MST/Java_CI-Demo.git</connection>
+     <url>scm:git:https://github.com/DevOps-MST/Java_CI-Demo.git</url>
+    <tag>MAVENWEBPROJECT-0.0.1</tag>
+  </scm>
+  
+   <distributionManagement>
+   <repository>
+      <id>releases</id>
+      <name>Releases</name>
+      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+   </repository>
+   <snapshotRepository>
+    <id>snapshots</id>
+    <name>Snapshots</name>
+    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+	     </distributionManagement> 
+	     
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>${hibernate.version}</version>
+</dependency>
+<dependency>
+  <groupId>mysql</groupId>
+  <artifactId>mysql-connector-java</artifactId>
+  <version>5.1.6</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>4.2.0.Final</version>
+</dependency>
+<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+<dependency>
+    <groupId>org.hibernate.common</groupId>
+    <artifactId>hibernate-commons-annotations</artifactId>
+    <version>${hibernate.version}</version>
+    <classifier>tests</classifier>
+</dependency>
+<dependency>
+    <groupId>org.hibernate.javax.persistence</groupId>
+    <artifactId>hibernate-jpa-2.0-api</artifactId>
+    <version>1.0.1.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>${hibernate.version}</version>
+</dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <version>2.0-beta-1</version>
+    <type>maven-plugin</type>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-catalina</artifactId>
+    <version>7.0.53</version>
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-util</artifactId>
+    <version>7.0.53</version>
+    <scope>provided</scope>
+</dependency>
+ </dependencies>
+ 
+  <build>
+    <finalName>MAVENWEBPROJECT</finalName>
+     <plugins>
+    <plugin>
+       <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+    </plugin>
+    
+     <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-release-plugin</artifactId>
+       <version>2.5.3</version>
+          <configuration>
+             <autoVersionSubmodules>true</autoVersionSubmodules>
+             <releaseProfiles>release</releaseProfiles> 
+          </configuration>
+    </plugin>
+ 
+  <plugin>
+      <groupId>org.sonatype.plugins</groupId>
+      <artifactId>nexus-staging-maven-plugin</artifactId>
+      <version>1.6.8</version>
+      <extensions>true</extensions>
+      <configuration>
+        <serverId>nexus</serverId>
+        <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+        </configuration>
+  </plugin>
+  </plugins>
+  </build>
+</project>
